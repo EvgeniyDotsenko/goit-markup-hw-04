@@ -321,6 +321,11 @@ main .container {
 .team-network {
   width: 44px;
   height: 44px;
+  /* padding: 12px; */
+}
+
+.team-network > a {
+  display: block;
   padding: 12px;
 }
 
