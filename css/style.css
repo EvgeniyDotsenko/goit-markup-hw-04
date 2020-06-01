@@ -144,7 +144,18 @@ main .container {
 /* герой */
 .hero {
   background: var(--secondary-bg-color);
+  background-image: linear-gradient(
+      var(--secondary-bg-color),
+      var(--secondary-bg-color)
+    ),
+    url(../img/hero-backgraund.jpg);
+  background-size: cover;
+  background-position: center;
+
+  max-width: 1600px;
   height: 600px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 200px;
 }
 
@@ -293,6 +304,8 @@ main .container {
   padding-bottom: 24px;
   border-radius: 4px;
   overflow: hidden;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
 }
 
 .team-item:not(:last-child) {
@@ -302,12 +315,18 @@ main .container {
 .social-network {
   display: flex;
   justify-content: center;
+  outline: 1px solid black;
 }
 
 .team-network {
   width: 44px;
   height: 44px;
   padding: 12px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
 }
 
 .team-network:not(:last-child) {
@@ -497,6 +516,11 @@ footer .logo {
   width: calc((100% - 2 * 30px) / 3);
   border-radius: 5px;
   overflow: hidden;
+}
+
+.works-item:hover {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
 .works-item:not(:nth-child(3n)) {
