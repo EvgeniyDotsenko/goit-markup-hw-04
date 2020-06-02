@@ -335,7 +335,7 @@ main .container {
 .team-network > a {
   display: block;
   padding: 12px;
-  outline: 1px solid black;
+  outline: 1px solid red;
 }
 
 .social-icon {
@@ -426,6 +426,9 @@ footer .logo {
 
 .button-footer {
   font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .company-developer {
@@ -439,6 +442,12 @@ footer .logo {
 
 .footer-socials {
   display: flex;
+}
+
+.socials-item > a {
+  display: block;
+  padding: 12px;
+  outline: 1px solid red;
 }
 
 .socials-item:not(:last-child) {
@@ -457,6 +466,11 @@ footer .logo {
 .form-input {
   height: 50px;
   margin-right: 12px;
+}
+
+.icon-send {
+  margin-left: 10px;
+  outline: 1px solid red;
 }
 
 /* Портфолио */

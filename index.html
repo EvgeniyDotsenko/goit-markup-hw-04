@@ -381,22 +381,30 @@
             <ul class="footer-socials">
               <li class="socials-item">
                 <a href="">
-                  <img src="./img/instagram.svg" alt="instagram" width="44px" />
+                  <svg class="social-icon">
+                    <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
                 </a>
               </li>
               <li class="socials-item">
                 <a href="">
-                  <img src="./img/twitter.svg" alt="twitter" width="44px" />
+                  <svg class="social-icon">
+                    <use href="./img/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
                 </a>
               </li>
               <li class="socials-item">
                 <a href="">
-                  <img src="./img/facebook.svg" alt="facebook" width="44px" />
+                  <svg class="social-icon">
+                    <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
                 </a>
               </li>
               <li class="socials-item">
                 <a href="">
-                  <img src="./img/linkedin.svg" alt="linkedin" width="44px" />
+                  <svg class="social-icon">
+                    <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
                 </a>
               </li>
             </ul>
@@ -404,7 +412,14 @@
           <form>
             <p class="footer-promo">подписаться на рассылку</p>
             <input type="text" class="form-input" />
-            <button class="button button-footer">Подписаться</button>
+            <button class="button">
+              <div class="button-footer">
+                <span>Подписаться</span>
+                <svg class="icon-send" width="24px" height="24px">
+                  <use href="./img/symbol-defs.svg#icon-send"></use>
+                </svg>
+              </div>
+            </button>
           </form>
         </div>
         <p class="company-developer">2020 | Developed by GoIT Students</p>
