@@ -117,7 +117,6 @@ main .container {
 
 .auth-nav-icon {
   margin-right: 10px;
-  outline: 1px solid red;
 }
 
 .link:hover,
@@ -239,8 +238,6 @@ main .container {
 .features-icon {
   width: 70px;
   height: 70px;
-
-  outline: 1px solid red;
 }
 
 .features-subtitle {
@@ -329,19 +326,16 @@ main .container {
 .social-network {
   display: flex;
   justify-content: center;
-  outline: 1px solid black;
 }
 
 .team-network > a {
   display: block;
   padding: 12px;
-  outline: 1px solid red;
 }
 
 .social-icon {
   width: 20px;
   height: 20px;
-  outline: 1px solid red;
 }
 
 .team-network:not(:last-child) {
@@ -374,7 +368,6 @@ main .container {
 
 .customer-icon {
   margin: auto;
-  outline: 1px solid red;
 }
 
 /* футер */
@@ -442,12 +435,12 @@ footer .logo {
 
 .footer-socials {
   display: flex;
+  --color4: var(--primary-bg-color);
 }
 
 .socials-item > a {
   display: block;
   padding: 12px;
-  outline: 1px solid red;
 }
 
 .socials-item:not(:last-child) {
@@ -470,7 +463,6 @@ footer .logo {
 
 .icon-send {
   margin-left: 10px;
-  outline: 1px solid red;
 }
 
 /* Портфолио */
