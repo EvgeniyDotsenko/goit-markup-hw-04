@@ -370,10 +370,15 @@ main .container {
   height: 90px;
   border-radius: 4px;
 
+  /* display: flex; */
+}
+
+.customer-item > a {
   display: flex;
 }
 
-.customer-item:hover {
+.customer-item:hover,
+.customer-item:focus {
   border: 1px solid var(--accent-color);
   --color4: var(--accent-color);
 }
