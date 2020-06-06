@@ -370,21 +370,18 @@ main .container {
   height: 90px;
   border-radius: 4px;
 
-  /* display: flex; */
+  display: flex;
 }
 
 .customer-item > a {
   display: flex;
+  margin: auto;
 }
 
 .customer-item:hover,
 .customer-item:focus {
   border: 1px solid var(--accent-color);
   --color4: var(--accent-color);
-}
-
-.customer-icon {
-  margin: auto;
 }
 
 .customer-item:not(:last-child) {
